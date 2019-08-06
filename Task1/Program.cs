@@ -6,7 +6,7 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-            Console.Write("s= 25 ");
+            Console.Write("s= ");
             float s = float.Parse(Console.ReadLine());
             double p = 4 * Math.Sqrt(s);
             Console.WriteLine("p=" + p);
